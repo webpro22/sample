@@ -1,0 +1,103 @@
+ ul {
+    animation-name: bar;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    list-style-type: none;
+    margin: none;
+    padding: 0.4%;
+    overflow:auto;
+    background-color: rgb(14, 68, 117);
+}
+@keyframes bar {
+    0% {background-color: thistle;}
+    30%{background-color: tomato;}
+    60% {background-color: yellow;}
+    90% {background-color: aqua;}
+    100%{background-color: goldenrod;}
+}
+ li {
+    float: right;
+}
+
+ li a {
+    display: block;
+    color: black;
+    text-align: top;
+    padding: 12px 19px;
+    text-decoration: none;
+}
+
+ li a:hover  {
+     color: tomato;
+     background-color: wheat;
+     padding: none;
+     margin: none;
+     text-transform: uppercase;
+}
+
+#one {
+    padding:1%;
+    margin-top: 2%;
+    color: blanchedalmond;
+    text-align: center;
+    background-color: darkslategray;
+    background-size: contain;
+    height:200px;
+    background-repeat: no-repeat;
+    animation: must 8s ease-in-out 2s infinite;
+}
+
+@keyframes must {
+    0% {background-color: floralwhite;}
+    10%{background-color: grey;}
+    20%{background-color:black}
+    50%{background-color: cadetblue;}
+    70%{background-color: gray;}
+    88%{background-color: white;}
+    100%{background-color: slategray;}
+    from{width: 45%;}
+    65%{width: 70%;}
+    85%{width: 88%;}
+    93%{width: 94%;}
+    to{width: fit-content;}
+
+}
+
+#two {
+    color: rosybrown;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#three {
+    color: rgb(218, 50, 176);
+    font-style: italic;
+    font-size: medium;
+    font-family: serif;
+    text-align: left;
+}
+
+h2 img {
+    float:right;
+}
+
+#four {
+    height: 60px;
+    width: 100px;
+    background: lavender;
+    overflow: hidden;
+    transition: width 3s, height 3s, transform 3s;
+}
+
+#four:hover {
+    height: 100px;
+    width: 1060px;
+    background: rgb(128, 240, 221);
+}
+
